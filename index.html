@@ -6,6 +6,15 @@
   </head>
   <body>
     
+    
+    <ons-template id="empty.html">
+      <ons-toolbar>
+        <div class="center">Page</div>
+      </ons-toolbar>
+    </ons-template>
+
+    <ons-template id="page.html">
+     
 <ons-page modifier="material">
     <ons-toolbar modifier="material">
       <div class="left">
@@ -48,14 +57,6 @@
 
     </ons-tabbar>
   
-    <ons-template id="empty.html">
-      <ons-toolbar>
-        <div class="center">Page</div>
-      </ons-toolbar>
-    </ons-template>
-
-    <ons-template id="page.html">
-     
 
       <ons-list>
 
@@ -115,9 +116,7 @@
         </ons-list-item>
       </ons-list>
 
-    </ons-template>
-  
-        
+    
 
         
   
@@ -196,5 +195,9 @@
       });
       ReactDOM.render(<CommentApp />, document.getElementById('container'));
     </script>
+    
+       </ons-template>
+  
+     
   </body>
 </html>
