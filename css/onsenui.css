@@ -1,3 +1,21 @@
+/*名前下の文字*/
+.profile-desc {
+  font-size: 15px;
+  opacity: 0.6;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
+/*プロフィールの名前文字*/
+.profile-name {
+  margin: 20px 0 0 0;
+  font-weight: 600;
+  font-size: 17px;
+}
 
 /*丸いアイコン*/
 .notification {
