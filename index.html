@@ -9,8 +9,6 @@
     
 
 
-    <ons-template id="page.html">
-     
 <ons-page modifier="material">
     <ons-toolbar modifier="material">
       <div class="left">
@@ -35,12 +33,8 @@
   
   <br>
      <span class="notification"> </span>作品リスト
-        
-      <ons-template id="empty.html">
-      <ons-toolbar>
-        <div class="center">Page</div>
-      </ons-toolbar>
-    </ons-template>
+      
+     
   
       <ons-tabbar hide-tabs="hoge">
       <ons-tab page="page.html" active="true">
@@ -57,7 +51,14 @@
 
     </ons-tabbar>
   
-
+  
+      <ons-template id="empty.html">
+      <ons-toolbar>
+        <div class="center">Page</div>
+      </ons-toolbar>
+    </ons-template>  
+    <ons-template id="page.html">
+      
       <ons-list>
 
         <ons-list-item modifier="chevron tappable" class="list-item-container">
